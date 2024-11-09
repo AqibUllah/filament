@@ -69,6 +69,16 @@ Designed with scalability and ease of use in mind, this StarterKit simplifies th
    ---OR--- 
    npm run dev for local
    
-4. **Run Migrations**
+4. **Copy ENV File**
+    ```bash
+    cp .env.example .env --OR copy.env.example .env
+   
+5. **Setup ENV**
+    ```bash
+    php artisan key:generate
+    php artisan config:cache
+    php artisan config:clear
+   
+6. **Run Migrations**
     ```bash
     php artisan migrate --seed
