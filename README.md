@@ -1,6 +1,6 @@
 # Laravel Filament Starter Kit
 
-### 1. Home Chat
+### 1. Demo Pics
 
 [//]: # (![Laravel Chat App]&#40;public/images/1.png&#41;)
 
